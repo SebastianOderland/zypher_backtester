@@ -1,15 +1,15 @@
 from distutils.core import setup
 
 setup(
-    name="zypher_backtest",  # How you named your package folder (MyLib)
-    packages=["zypher_backtest"],  # Chose the same as "name"
-    version="1.0.1",  # Start with a small number and increase it with every change you make
+    name="zypher_backtester",  # How you named your package folder (MyLib)
+    packages=["zypher_backtester"],  # Chose the same as "name"
+    version="1.0.3",  # Start with a small number and increase it with every change you make
     license="MIT",  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-    description="TYPE YOUR DESCRIPTION HERE",  # Give a short description about your library
+    description="Backtester",  # Give a short description about your library
     author="Sebastian Oderland",  # Type in your name
     author_email="sebastian.oderland@oderland.se",  # Type in your E-Mail
-    url="https://github.com/SebastianOderland/zypher_backtest",  # Provide either the link to your github or to your website
-    download_url="https://github.com/SebastianOderland/zypher_backtest/releases/tag/v_1.0.1.tar.gz",  # I explain this later on
+    url="https://github.com/SebastianOderland/zypher_backtester",  # Provide either the link to your github or to your website
+    download_url="https://github.com/SebastianOderland/zypher_backtester/releases/tag/v_1.0.3.tar.gz",  # I explain this later on
     keywords=["zypher",],  # Keywords that define your package best
     install_requires=["backtrader",],
     classifiers=[
