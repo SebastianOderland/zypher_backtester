@@ -9,7 +9,7 @@ setup(
     author="Sebastian Oderland",  # Type in your name
     author_email="sebastian.oderland@oderland.se",  # Type in your E-Mail
     url="https://github.com/SebastianOderland/zypher_backtest",  # Provide either the link to your github or to your website
-    download_url="https://github.com/user/reponame/archive/v_01.tar.gz",  # I explain this later on
+    download_url="https://github.com/SebastianOderland/zypher_backtest/releases/tag/v_1.tar.gz",  # I explain this later on
     keywords=["zypher",],  # Keywords that define your package best
     install_requires=["backtrader",],
     classifiers=[
