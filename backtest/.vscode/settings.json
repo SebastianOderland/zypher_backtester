@@ -1,0 +1,14 @@
+{
+    "restructuredtext.confPath": "",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/**.meta": true,
+        "**/__pycache__": true,
+        "__pycache__": true
+    },
+    "explorerExclude.backup": null
+}
