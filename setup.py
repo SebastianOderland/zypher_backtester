@@ -1,11 +1,4 @@
 from distutils.core import setup
-import sys
-
-
-version = "1.0.0"
-if len(sys.argv) == 3:
-    version = sys.argv[2]
-    sys.argv = [sys.argv[0], sys.argv[1]]
 
 
 setup(
