@@ -40,7 +40,7 @@ setup(
     author_email='sebastian.oderland@oderland.se',  # Type in your E-Mail
     url='https://github.com/SebastianOderland/zypher_backtester',  # Provide either the link to your github or to your website
     download_url='https://github.com/SebastianOderland/zypher_backtester/releases/tag/v_'
-    + ${version}
+    + '${version}'
     + '.tar.gz',  # I explain this later on
     keywords=['zypher',],  # Keywords that define your package best
     install_requires=['ib_insync',],
