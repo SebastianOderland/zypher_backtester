@@ -1,7 +1,4 @@
 import os
-
-# from strategies import *
-
 import backtrader as bt
 
 
@@ -10,7 +7,6 @@ def run(data_filepath, output_filepath, strategy):
         os.mkdir(f"{output_filepath}")
 
     filename = os.path.basename(data_filepath)
-    # strategy = eval(strategy_name)
 
     data0 = bt.feeds.BacktraderCSVData(dataname=data_filepath)
     cerebro = bt.Cerebro()
