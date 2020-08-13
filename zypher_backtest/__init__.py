@@ -1,1 +1,1 @@
-from backtest.main import run
+from zypher_backtest.main import run
