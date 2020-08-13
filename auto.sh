@@ -20,12 +20,6 @@ generate_post_data()
 EOF
 }
 
-git add .
-
-git commit -m "$desc"
-git push origin master
-curl --data "$(generate_post_data)" "https://api.github.com/repos/SebastianOderland/zypher_backtester/releases?access_token=$token"
-
 touch setup.py
 echo "from distutils.core import setup
 
@@ -53,6 +47,12 @@ setup(
     ],
 )
 " > setup.py
+
+git add .
+
+git commit -m "$desc"
+git push origin master
+curl --data "$(generate_post_data)" "https://api.github.com/repos/SebastianOderland/zypher_backtester/releases?access_token=$token"
 
 
 python3 setup.py sdist
