@@ -33,7 +33,7 @@ echo "from distutils.core import setup
 setup(
     name='zypher_backtester',  # How you named your package folder (MyLib)
     packages=['zypher_backtester'],  # Chose the same as 'name'
-    version=${version},  # Start with a small number and increase it with every change you make
+    version='${version}',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='Backtester',  # Give a short description about your library
     author='Sebastian Oderland',  # Type in your name
